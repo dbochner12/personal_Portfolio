@@ -1,6 +1,75 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
 
 
+
+
+/* Header */
+header {
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: teal;
+    padding-top: 1rem;
+}
+
+nav {
+    display: flex;
+}
+
+h2#logo {
+    margin: auto;
+    min-width: min-content;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header li {
+    list-style: none;
+    padding: 0 2.5rem;
+    font-weight: bold;
+}
+  
+header a {
+    text-decoration: none;
+    color: #00e;
+    transition: color 0.8s ease-out;
+}
+
+header a:hover {
+    color: #551a8b;
+}
+
+header a:visited {
+    color: #551a8b;
+}
+
+/* About Me Section */
+
+
+
+
+/* Projects Section */
 
 .project-title h3 {
     display: inline;
 }
+
+
+
+
+
+
+/* Footer */
+
+
+/* Media Queries */
