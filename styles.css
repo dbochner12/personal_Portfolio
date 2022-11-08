@@ -8,11 +8,31 @@ html {
     font-family: Montserrat, sans-serif;
 }
 
+:root {
+    --spacing-1: 1rem;
+    --spacing-2: 2.5rem;
+
+    --margin-size-1: 1.25rem;
+
+    --spacing-small-1: 0.625rem;
+}
+
 body {
     max-width: 75rem;
     margin: 0 auto;
 }
 
+main {
+    color: black;
+}
+
+section {
+    margin-top: var(--margin-size-1);
+}
+
+.center {
+    text-align: center;
+}
 
 /* Header */
 header {
@@ -27,6 +47,7 @@ nav {
 }
 
 h2#logo {
+    padding-left: var(--spacing-2);
     margin-top: 1rem;
     min-width: min-content;
 }
@@ -59,19 +80,54 @@ header a:visited {
 
 /* About Me Section */
 
+.About-Me-content {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+}
 
+.About-Me-text {
+    padding-left: var(--spacing-2);
+}
 
+#self-image {
+    width: 15rem;
+    border: solid 1px black;
+    border-radius: 1rem;
+    margin: var(--margin-size-1);
+
+}
 
 /* Projects Section */
+
+#codecademyProjects {
+    padding-left: var(--spacing-2);
+}
 
 .project-title h3 {
     display: inline;
 }
 
+.project-image {
+    margin: 1rem;
+    max-width: 75%;
+    margin-bottom: .25rem;
+}
 
+.project-description {
+    margin: 0 auto;
+    font-style: italic;
+}
 
+.project-content h4 {
+    margin: --spacing-small-1 auto;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
 
-
+.link-text {
+    margin: 0;
+}
 
 /* Footer */
 
