@@ -30,6 +30,11 @@ section {
     margin-top: var(--margin-size-1);
 }
 
+details {
+    margin-top: .5rem;
+    border: 1px solid grey;
+}
+
 .center {
     text-align: center;
 }
@@ -66,7 +71,8 @@ header li {
   
 header a {
     text-decoration: none;
-    color: #00e;
+    color: black;
+    /*color: #00e;*/
     transition: color 0.8s ease-out;
 }
 
@@ -74,16 +80,17 @@ header a:hover {
     color: #551a8b;
 }
 
+/*
 header a:visited {
     color: #551a8b;
-}
+}*/
 
 /* About Me Section */
 
 .About-Me-content {
     display: flex;
     justify-content: space-between;
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
 }
 
 .About-Me-text {
@@ -111,7 +118,7 @@ header a:visited {
 .project-image {
     margin: 1rem;
     max-width: 75%;
-    margin-bottom: .25rem;
+    margin-bottom: 0;
 }
 
 .project-description {
