@@ -39,6 +39,15 @@ details {
     text-align: center;
 }
 
+/* Themes */
+
+.darkMode {
+    color: white;
+    background-color: black;
+}
+
+
+
 /* Header */
 header {
     width: 100%;
@@ -50,6 +59,20 @@ header {
 nav {
     display: flex;
 }
+
+#toggleButton {
+    border: solid 1px black;
+    color: black;
+    background-color: white;
+    height: fit-content;
+    margin: auto;
+}
+
+/*
+#toggleButton:hover {
+    background-color: blue;
+}
+*/
 
 h2#logo {
     padding-left: var(--spacing-2);
